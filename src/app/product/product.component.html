@@ -1,3 +1,46 @@
-<div class="w-full h-screen text-center py-24">
-  <h1 class="text-red-400 text-5xl">Product component</h1>
-</div>
+<section class="w-full bg-white py-16 text-center">
+  <p class="uppercase text-orange-400">Product</p>
+  <h2 class="text-4xl font-bold mb-16">Most Popular Items</h2>
+  <div class="w-10/12 mx-auto flex">
+    <div
+      *ngFor="let p of popularProducts"
+      class="flex-1 mx-6 overflow-hidden rounded-xl shadow-lg text-left"
+    >
+      <div class="rounded-xl shadow-lg">
+        <figure>
+          <img class="w-full" src="{{ p.imgUrl }}" alt="{{ p.productName }}" />
+        </figure>
+        <figcaption class="p-6">
+          <div class="flex">
+            <h1 class="flex-1 text-lg font-bold mb-3">{{ p.productName }}</h1>
+            <div class="text-sm">{{ p.rating }}</div>
+          </div>
+          <div class="flex">
+            <div class="flex-1">
+              <button
+                class="bg-orange-400 px-4 py-1 rounded-full text-white text-sm"
+              >
+                Add To Card
+              </button>
+            </div>
+            <div>{{ p.currency }}{{ p.price }}</div>
+          </div>
+        </figcaption>
+      </div>
+    </div>
+  </div>
+  <div class="w-10/12 mx-auto flex items-center justify-center mt-16">
+    <div class="flex text-white">
+      <div
+        class="rounded-full px-6 py-3 w-full flex flex-row items-center justify-center bg-orange-400"
+      >
+        <div>See More Product</div>
+        <div
+          class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center ml-4 text-black"
+        >
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -11,6 +11,7 @@ import { ServicesComponent } from './services/services.component';
 import { HotItWorksComponent } from './hot-it-works/hot-it-works.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './shared/components/search/search/search.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchComponent } from './shared/components/search/search/search.compon
     ServicesComponent,
     HotItWorksComponent,
     FooterComponent,
-    SearchComponent
+    SearchComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,

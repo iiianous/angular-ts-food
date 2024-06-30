@@ -1,3 +1,22 @@
-<div class="w-full h-screen bg-gray-200">
-  <h1 class="text-red-400 text-5xl">Services components</h1>
-</div>
+<section class="w-full bg-white py-16 text-center">
+  <p class="uppercase text-orange-400">Services</p>
+  <h2 class="text-4xl font-bold mb-16">Why Choose Food</h2>
+  <div class="w-10/12 mx-auto flex">
+    <div
+      *ngFor="let s of serviceItems"
+      class="flex-1 mx-6 rounded-xl shadow-xl text-center"
+    >
+      <div
+        class="rounded-xl shadow-lg flex flex-col items-center justify-center p-8"
+      >
+        <figure>
+          <img class="rounded-full" src="{{ s.imgUrl }}" alt="{{ s.title }}" />
+        </figure>
+        <figcaption>
+          <h1 class="text-xl font-bold my-6">{{ s.title }}</h1>
+          <div class="text-md">{{ s.text }}</div>
+        </figcaption>
+      </div>
+    </div>
+  </div>
+</section>

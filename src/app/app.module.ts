@@ -12,6 +12,7 @@ import { HotItWorksComponent } from './hot-it-works/hot-it-works.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './shared/components/search/search/search.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     HotItWorksComponent,
     FooterComponent,
     SearchComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,

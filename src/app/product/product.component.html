@@ -1,14 +1,18 @@
 <section class="w-full bg-white py-16 text-center">
   <p class="uppercase text-orange-400">Product</p>
   <h2 class="text-4xl font-bold mb-16">Most Popular Items</h2>
-  <div class="w-10/12 mx-auto flex">
+  <div class="w-10/12 flex justify-center items-center">
     <div
       *ngFor="let p of popularProducts"
-      class="flex-1 mx-6 overflow-hidden rounded-xl shadow-lg text-left"
+      class="overflow-hidden rounded-xl shadow-lg text-left flex-1"
     >
       <div class="rounded-xl shadow-lg">
         <figure>
-          <img class="w-full" src="{{ p.imgUrl }}" alt="{{ p.productName }}" />
+          <img
+            class="w-full"
+            src="./assets/{{ p.imgUrl }}"
+            alt="{{ p.productName }}"
+          />
         </figure>
         <figcaption class="p-6">
           <div class="flex">

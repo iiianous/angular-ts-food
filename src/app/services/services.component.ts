@@ -8,17 +8,17 @@ import { Component } from '@angular/core';
 export class ServicesComponent {
   serviceItems = [
     {
-      imgUrl: 'https://placehold.co/100x100/EEE/31343C',
+      imgUrl: 'icon-utensils.svg',
       title: 'Quality food',
       text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam itaque magni dignissimos maxime aperiam.',
     },
     {
-      imgUrl: 'https://placehold.co/100x100/EEE/31343C',
+      imgUrl: 'icon-spoonfork.svg',
       title: 'Healthy Food',
       text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam itaque magni dignissimos maxime aperiam.',
     },
     {
-      imgUrl: 'https://placehold.co/100x100/EEE/31343C',
+      imgUrl: 'icon-delivery-2.svg',
       title: 'Fast Delivery',
       text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam itaque magni dignissimos maxime aperiam.',
     },

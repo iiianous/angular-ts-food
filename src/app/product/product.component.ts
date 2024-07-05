@@ -8,21 +8,42 @@ import { Component } from '@angular/core';
 export class ProductComponent {
   popularProducts = [
     {
-      imgUrl: 'https://placehold.co/300x250/EEE/31343C',
+      imgUrl: 'img-popular-1.svg',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'https://placehold.co/300x250/EEE/31343C',
+      imgUrl: 'img-popular-2.svg',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'https://placehold.co/300x250/EEE/31343C',
+      imgUrl: 'img-popular-3.svg',
+      productName: 'Gyro Sandwhich',
+      rating: '4.9',
+      price: '15.00',
+      currency: '$',
+    },
+    {
+      imgUrl: 'img-popular-4.svg',
+      productName: 'Gyro Sandwhich',
+      rating: '4.9',
+      price: '15.00',
+      currency: '$',
+    },
+    {
+      imgUrl: 'img-popular-5.svg',
+      productName: 'Gyro Sandwhich',
+      rating: '4.9',
+      price: '15.00',
+      currency: '$',
+    },
+    {
+      imgUrl: 'img-popular-6.svg',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',

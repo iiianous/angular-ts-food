@@ -8,42 +8,42 @@ import { Component } from '@angular/core';
 export class ProductComponent {
   popularProducts = [
     {
-      imgUrl: 'img-popular-1.svg',
+      imgUrl: 'img-popular-1.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'img-popular-2.svg',
+      imgUrl: 'img-popular-2.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'img-popular-3.svg',
+      imgUrl: 'img-popular-3.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'img-popular-4.svg',
+      imgUrl: 'img-popular-4.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'img-popular-5.svg',
+      imgUrl: 'img-popular-5.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',
       currency: '$',
     },
     {
-      imgUrl: 'img-popular-6.svg',
+      imgUrl: 'img-popular-6.png',
       productName: 'Gyro Sandwhich',
       rating: '4.9',
       price: '15.00',

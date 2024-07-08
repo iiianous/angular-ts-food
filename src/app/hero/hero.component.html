@@ -2,13 +2,7 @@
   <div class="w-10/12 mx-auto">
     <header class="p-5 hero flex mb-10">
       <div class="flex-1">
-        <a href="#">
-          <img
-            class="p-2 relative w-[145px]"
-            src="./assets/food-logo.png"
-            alt="Food Logo"
-          />
-        </a>
+        <app-logo></app-logo>
       </div>
       <nav class="flex items-center flex-1">
         <ul class="m-0 p-0 flex">
@@ -28,14 +22,15 @@
           </li>
         </ul>
       </nav>
-      <div class="flex-1 items-center flex">
+      <div class="flex-1 items-center flex hidden lg:block">
         <app-search></app-search>
       </div>
     </header>
-    <div class="flex">
-      <div class="flex-1 pr-32">
+
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-1 lg:pr-32">
         <div
-          class="mb-16 rounded-full bg-[#efefef] p-1 flex items-center w-2/4"
+          class="mb-5 lg:mb-16 rounded-full bg-[#efefef] p-1 flex items-center w-2/4"
         >
           <div class="flex-1 items-end px-4 text-lg">Bike Delivery</div>
           <div>
@@ -48,14 +43,16 @@
             />
           </div>
         </div>
-        <h1 class="text-[75px] text-black font-bold leading-tight mb-10">
+        <h1
+          class="text-black text-4xl font-bold leading-tight mb-4 lg:mb-10 text-center lg:text-left lg:text-[70px]"
+        >
           The Fastest Delivery <span class="text-orange-600">In Your City</span>
         </h1>
-        <p class="mb-16 text-2xl">
+        <p class="mb-8 lg:mb-16 text-xl lg:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam,
           itaque magni dignissimos maxime aperiam.
         </p>
-        <div class="flex">
+        <div class="flex mb-16 lg:mb-0">
           <div class="flex-1">
             <button
               class="bg-orange-400 px-12 py-5 text-xl font-bold text-white rounded-lg"
@@ -86,133 +83,137 @@
       <div class="flex-1">
         <!-- <div class="bg-slate-100 h-full">
         </div> -->
-        <div class="flex">
-          <div class="flex flex-wrap">
-            <div class="w-[230px] text-center mb-10">
-              <div
-                class="mx-3 bg-white-400 rounded-2xl shadow-lg flex flex-col"
-              >
-                <img
-                  src="./assets/burger_sandwich.png"
-                  alt=""
-                  class="scale-150"
-                />
-                <h4 class="text-2xl font-bold">Burger</h4>
-                <p>Mushroom Souce</p>
-                <p>$5.15</p>
-                <div class="flex relative top-[15px]">
-                  <div class="flex-1 flex justify-end">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer inline-block w-[40px] h-[40px]"
-                      src="./assets/icon-arrow-prev.svg"
-                      alt="Previous"
-                    />
+        <div class="flex items-center justify-center">
+          <div class="flex flex-col">
+            <div class="flex">
+              <div class="w-[230px] text-center mb-10">
+                <div
+                  class="mx-3 bg-white-400 rounded-2xl shadow-lg flex flex-col"
+                >
+                  <img
+                    src="./assets/burger_sandwich.png"
+                    alt=""
+                    class="scale-150"
+                  />
+                  <h4 class="text-2xl font-bold">Burger</h4>
+                  <p>Mushroom Souce</p>
+                  <p>$5.15</p>
+                  <div class="flex relative top-[15px]">
+                    <div class="flex-1 flex justify-end">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer inline-block w-[40px] h-[40px]"
+                        src="./assets/icon-arrow-prev.svg"
+                        alt="Previous"
+                      />
+                    </div>
+                    <div class="flex-1 flex justify-start">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
+                        src="./assets/icon-arrow-next.svg"
+                        width="40"
+                        height="40"
+                        alt="Next"
+                      />
+                    </div>
                   </div>
-                  <div class="flex-1 flex justify-start">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
-                      src="./assets/icon-arrow-next.svg"
-                      width="40"
-                      height="40"
-                      alt="Next"
-                    />
+                </div>
+              </div>
+              <div class="w-[230px] text-center mb-10">
+                <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
+                  <img
+                    src="./assets/burger_sandwich.png"
+                    alt=""
+                    class="scale-150"
+                  />
+                  <h4 class="text-2xl font-bold">Burger</h4>
+                  <p>Mushroom Souce</p>
+                  <p>$5.15</p>
+                  <div class="flex relative top-[15px]">
+                    <div class="flex-1 flex justify-end">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-prev.svg"
+                        width="40"
+                        height="40"
+                        alt="Previous"
+                      />
+                    </div>
+                    <div class="flex-1 flex justify-start">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-next.svg"
+                        width="40"
+                        height="40"
+                        alt="Next"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="w-[230px] text-center mb-10">
-              <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                <img
-                  src="./assets/burger_sandwich.png"
-                  alt=""
-                  class="scale-150"
-                />
-                <h4 class="text-2xl font-bold">Burger</h4>
-                <p>Mushroom Souce</p>
-                <p>$5.15</p>
-                <div class="flex relative top-[15px]">
-                  <div class="flex-1 flex justify-end">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-prev.svg"
-                      width="40"
-                      height="40"
-                      alt="Previous"
-                    />
-                  </div>
-                  <div class="flex-1 flex justify-start">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-next.svg"
-                      width="40"
-                      height="40"
-                      alt="Next"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-[230px] text-center mb-10">
-              <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                <img
-                  src="./assets/burger_sandwich.png"
-                  alt=""
-                  class="scale-150"
-                />
-                <h4 class="text-2xl font-bold">Burger</h4>
-                <p>Mushroom Souce</p>
-                <p>$5.15</p>
-                <div class="flex relative top-[15px]">
-                  <div class="flex-1 flex justify-end">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-prev.svg"
-                      width="40"
-                      height="40"
-                      alt="Previous"
-                    />
-                  </div>
-                  <div class="flex-1 flex justify-start">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-next.svg"
-                      width="40"
-                      height="40"
-                      alt="Next"
-                    />
+            <div class="flex">
+              <div class="w-[230px] text-center mb-10">
+                <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
+                  <img
+                    src="./assets/burger_sandwich.png"
+                    alt=""
+                    class="scale-150"
+                  />
+                  <h4 class="text-2xl font-bold">Burger</h4>
+                  <p>Mushroom Souce</p>
+                  <p>$5.15</p>
+                  <div class="flex relative top-[15px]">
+                    <div class="flex-1 flex justify-end">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-prev.svg"
+                        width="40"
+                        height="40"
+                        alt="Previous"
+                      />
+                    </div>
+                    <div class="flex-1 flex justify-start">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-next.svg"
+                        width="40"
+                        height="40"
+                        alt="Next"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="w-[230px] text-center mb-10">
-              <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                <img
-                  src="./assets/burger_sandwich.png"
-                  alt=""
-                  class="scale-150"
-                />
-                <h4 class="text-2xl font-bold">Burger</h4>
-                <p>Mushroom Souce</p>
-                <p>$5.15</p>
-                <div class="flex relative top-[15px]">
-                  <div class="flex-1 flex justify-end">
-                    <img
-                      class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-prev.svg"
-                      width="40"
-                      height="40"
-                      alt="Previous"
-                    />
-                  </div>
-                  <div class="flex-1 flex justify-start">
-                    <img
-                      cla
-                      ss="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
-                      src="./assets/icon-arrow-next.svg"
-                      width="40"
-                      height="40"
-                      alt="Next"
-                    />
+              <div class="w-[230px] text-center mb-10">
+                <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
+                  <img
+                    src="./assets/burger_sandwich.png"
+                    alt=""
+                    class="scale-150"
+                  />
+                  <h4 class="text-2xl font-bold">Burger</h4>
+                  <p>Mushroom Souce</p>
+                  <p>$5.15</p>
+                  <div class="flex relative top-[15px]">
+                    <div class="flex-1 flex justify-end">
+                      <img
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-prev.svg"
+                        width="40"
+                        height="40"
+                        alt="Previous"
+                      />
+                    </div>
+                    <div class="flex-1 flex justify-start">
+                      <img
+                        cla
+                        ss="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        src="./assets/icon-arrow-next.svg"
+                        width="40"
+                        height="40"
+                        alt="Next"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -222,7 +223,7 @@
         <!-- <img src="https://placehold.co/600x400/EEE/31343C" alt="A Placeholder" /> -->
       </div>
     </div>
-    <div class="flex text-center shadow-2xl p-[50px] rounded-xl my-16">
+    <!-- <div class="flex text-center shadow-2xl p-[50px] rounded-xl my-16">
       <div
         *ngFor="let item of operatingHours"
         class="flex-1 flex justify-center items-center flex-col"
@@ -235,6 +236,6 @@
         <p class="font-bold mb-1">{{ item.operatingHour }}</p>
         <p class="text-gray-400 text-xs">{{ item.text }}</p>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>

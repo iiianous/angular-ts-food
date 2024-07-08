@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './shared/components/search/search/search.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { LogoComponent } from './shared/components/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     FooterComponent,
     SearchComponent,
     TestimonialComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,

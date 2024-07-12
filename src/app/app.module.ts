@@ -14,6 +14,8 @@ import { SearchComponent } from './shared/components/search/search/search.compon
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { LogoComponent } from './shared/components/logo/logo.component';
+import { OrderNowComponent } from './shared/components/order-now/order-now.component';
+import { MainNavComponent } from './shared/components/main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LogoComponent } from './shared/components/logo/logo.component';
     SearchComponent,
     TestimonialComponent,
     SubscribeComponent,
-    LogoComponent
+    LogoComponent,
+    OrderNowComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,

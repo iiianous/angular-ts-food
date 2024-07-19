@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { SvgIconComponent, provideAngularSvgIcon } from 'angular-svg-icon'
+import { SvgIconComponent, provideAngularSvgIcon } from 'angular-svg-icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,15 +30,15 @@ import { MainNavComponent } from './shared/components/main-nav/main-nav.componen
     SubscribeComponent,
     LogoComponent,
     OrderNowComponent,
-    MainNavComponent
+    MainNavComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    SvgIconComponent
+    SvgIconComponent,
   ],
   providers: [provideAngularSvgIcon()],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

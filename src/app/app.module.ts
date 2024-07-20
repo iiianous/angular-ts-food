@@ -16,6 +16,7 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
 import { LogoComponent } from './shared/components/logo/logo.component';
 import { OrderNowComponent } from './shared/components/order-now/order-now.component';
 import { MainNavComponent } from './shared/components/main-nav/main-nav.component';
+import { MobileNavComponent } from './shared/components/mobile-nav/mobile-nav.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { MainNavComponent } from './shared/components/main-nav/main-nav.componen
     LogoComponent,
     OrderNowComponent,
     MainNavComponent,
+    MobileNavComponent,
   ],
   imports: [
     BrowserModule,

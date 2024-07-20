@@ -12,6 +12,7 @@ import { LogoComponent } from './shared/components/logo/logo.component';
 import { MainNavComponent } from './shared/components/main-nav/main-nav.component';
 import { SearchComponent } from './shared/components/search/search/search.component';
 import { OrderNowComponent } from './shared/components/order-now/order-now.component';
+import { MobileNavComponent } from './shared/components/mobile-nav/mobile-nav.component';
 
 describe('AppComponent', () => {
   beforeEach(() =>
@@ -28,6 +29,7 @@ describe('AppComponent', () => {
         FooterComponent,
         LogoComponent,
         MainNavComponent,
+        MobileNavComponent,
         SearchComponent,
         OrderNowComponent,
       ],

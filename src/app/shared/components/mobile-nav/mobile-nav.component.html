@@ -1,1 +1,6 @@
-<p>mobile-nav works!</p>
+<p>mobile-nav works! {{ name }}</p>
+<input class="p-2 border-1" (input)="onNameChange($event)"/>
+<button class="p-1 px-3 border-gray-600 bg-amber-600" (click)="incrementCount()">Increment</button>
+<span class="px-4">{{ count }}</span>
+<button class="p-1 px-3 border-gray-600 bg-amber-600" (click)="decrementCount()">Decrement</button>
+<p *ngIf="errorMsg !== ''">{{ errorMsg }}</p>

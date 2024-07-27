@@ -22,9 +22,11 @@
     <div class="flex flex-col lg:flex-row">
       <div class="flex-1 lg:pr-24 xl:pr-32">
         <div
-          class="mb-5 lg:mb-16 rounded-full bg-[#efefef] p-1 flex items-center w-3/4 mx-auto lg:mx-0"
+          class="mb-5 lg:mb-16 rounded-full bg-[#F5DDC4] p-1 flex items-center w-[270px] mx-auto lg:mx-0"
         >
-          <div class="flex-1 items-end px-4 text-lg">Bike Delivery</div>
+          <div class="flex-1 items-end px-4 text-lg text-[#F48E28]">
+            Bike Delivery
+          </div>
           <div>
             <img
               class="mx-3 justify-end bg-white rounded-full p-1 relative right-[-12px] w-[36px] h-[36px] lg:w-[46px] lg:h-[46px]"
@@ -36,9 +38,19 @@
           </div>
         </div>
         <h1
-          class="text-black text-3xl md:text-4xl lg:text-7xl font-bold leading-loose mb-4 lg:mb-10 text-center lg:text-left"
+          class="text-black text-3xl md:text-4xl lg:text-7xl font-bold leading-loose mb-4 lg:mb-16 text-center lg:text-left relative"
         >
-          The Fastest Delivery <span class="text-orange-600">In Your City</span>
+          The Fastest Delivery
+          <span class="text-orange-600"
+            ><br class="hidden lg:inline-block" />In Your City</span
+          >
+          <img
+            class="hidden xl:inline-block absolute -right-[230px] top-[20px]"
+            src="./assets/icon-hero-arrow.svg"
+            width="382"
+            height="236"
+            alt="Main menu"
+          />
         </h1>
         <p
           class="mb-8 lg:mb-16 text-center lg:text-left text-md md:text-xl lg:text-2xl"
@@ -70,10 +82,13 @@
           </div>
         </div>
       </div>
-      <div class="flex-1">
-        <!-- <div class="bg-slate-100 h-full">
-        </div> -->
-        <div class="flex items-center justify-center">
+      <div class="flex-1 relative">
+        <div
+          class="bg-slate-500 absolute h-full xl:w-[360px] rounded-xl right-0 z-[0]"
+        ></div>
+        <div
+          class="flex items-center justify-center lg:justify-end z-30 relative"
+        >
           <div class="flex flex-col">
             <div class="flex">
               <div

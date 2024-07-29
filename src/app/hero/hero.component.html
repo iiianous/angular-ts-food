@@ -20,7 +20,7 @@
     </header>
 
     <div class="flex flex-col lg:flex-row">
-      <div class="flex-1 lg:pr-24 xl:pr-32">
+      <div class="flex-1 lg:pr-1 xl:pr-32">
         <div
           class="mb-5 lg:mb-16 rounded-full bg-[#F5DDC4] p-1 flex items-center w-[270px] mx-auto lg:mx-0"
         >
@@ -59,23 +59,23 @@
           itaque magni dignissimos maxime aperiam.
         </p>
         <div class="mb-16 lg:mb-0 hidden lg:flex">
-          <div class="flex-1 flex justify-end lg:justify-start pr-12 lg:pr-0">
-            <app-order-now> Order Now </app-order-now>
+          <div
+            class="flex-1 flex justify-end lg:justify-start w-full"
+          >
+            <app-order-now>Order Now</app-order-now>
           </div>
-          <div class="flex-1 pl-12 lg:pl-0">
-            <button class="flex items-center justify-center -top-1 relative">
+          <div class="flex-1  flex items-center justify-start">
+            <button class="flex items-center justify-center lg:justify-start -top-1 relative w-full">
               <span
-                class="w-[70px] h-[70px] bg-white shadow-lg rounded-full flex justify-center"
+                class="w-[60] h-[60] md:w-[70px] md:h-[70px] bg-white shadow-lg rounded-full flex justify-center items-center"
               >
                 <img
-                  class="p-2 relative right-[-4px]"
+                  class="p-2 relative right-[-4px] lg:w-[50px] lg:h-[50px] w-[40px] h-[40px]"
                   src="./assets/icon-triangle.svg"
-                  width="50"
-                  height="50"
                   alt="Order Process"
                 />
               </span>
-              <span class="inline-block text-xl px-5 font-bold"
+              <span class="inline-block md:text-md xl:text-xl px-3 lg:px-4 font-bold"
                 >Order Process</span
               >
             </button>
@@ -84,32 +84,31 @@
       </div>
       <div class="flex-1 relative">
         <div
-          class="bg-slate-500 absolute h-full xl:w-[360px] rounded-xl right-0 z-[0]"
-        ></div>
-        <div
-          class="flex items-center justify-center lg:justify-end z-30 relative"
+          class="flex items-center justify-center lg:justify-end z-[40] relative"
         >
           <div class="flex flex-col">
             <div class="flex">
-              <div
-                class="w-[200px] w-[230px] text-center pb-10 overflow-hidden p-4"
-              >
-                <div
-                  class="mx-3 bg-white-400 rounded-2xl shadow-lg flex flex-col"
-                >
-                  <img
-                    src="./assets/burger_sandwich.png"
-                    alt=""
-                    class="scale-150"
-                  />
-                  <h4 class="text-2xl font-bold">Burger</h4>
-                  <p>Mushroom Souce</p>
-                  <p>$5.15</p>
+              <div class="w-[230px] text-center pb-10 overflow-hidden p-4">
+                <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
+                  <figure>
+                    <img
+                      src="./assets/burger_sandwich.png"
+                      alt=""
+                      class="scale-150"
+                    />
+                    <figcaption class="relative z-20">
+                      <h4 class="text-2xl font-bold">Burger</h4>
+                      <p>Mushroom Souce</p>
+                      <p>$5.15</p>
+                    </figcaption>
+                  </figure>
                   <div class="flex relative top-[15px]">
                     <div class="flex-1 flex justify-end">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer inline-block w-[40px] h-[40px]"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-prev.svg"
+                        width="40"
+                        height="40"
                         alt="Previous"
                       />
                     </div>
@@ -125,22 +124,24 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="w-[200px] w-[230px] text-center pb-10 overflow-hidden p-4"
-              >
+              <div class="w-[230px] text-center pb-10 overflow-hidden p-4">
                 <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                  <img
-                    src="./assets/burger_sandwich.png"
-                    alt=""
-                    class="scale-150"
-                  />
-                  <h4 class="text-2xl font-bold">Burger</h4>
-                  <p>Mushroom Souce</p>
-                  <p>$5.15</p>
+                  <figure>
+                    <img
+                      src="./assets/img-food-combo.png"
+                      alt=""
+                      class="scale-150"
+                    />
+                    <figcaption class="relative z-20">
+                      <h4 class="text-2xl font-bold">Burger</h4>
+                      <p>Mushroom Souce</p>
+                      <p>$5.15</p>
+                    </figcaption>
+                  </figure>
                   <div class="flex relative top-[15px]">
                     <div class="flex-1 flex justify-end">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-prev.svg"
                         width="40"
                         height="40"
@@ -149,7 +150,7 @@
                     </div>
                     <div class="flex-1 flex justify-start">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-next.svg"
                         width="40"
                         height="40"
@@ -161,22 +162,24 @@
               </div>
             </div>
             <div class="flex">
-              <div
-                class="w-[200px] w-[230px] text-center pb-10 overflow-hidden p-4"
-              >
+              <div class="w-[230px] text-center pb-10 overflow-hidden p-4">
                 <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                  <img
-                    src="./assets/burger_sandwich.png"
-                    alt=""
-                    class="scale-150"
-                  />
-                  <h4 class="text-2xl font-bold">Burger</h4>
-                  <p>Mushroom Souce</p>
-                  <p>$5.15</p>
+                  <figure>
+                    <img
+                      src="./assets/img-food-pizza.png"
+                      alt=""
+                      class="scale-150"
+                    />
+                    <figcaption class="relative z-20">
+                      <h4 class="text-2xl font-bold">Burger</h4>
+                      <p>Mushroom Souce</p>
+                      <p>$5.15</p>
+                    </figcaption>
+                  </figure>
                   <div class="flex relative top-[15px]">
                     <div class="flex-1 flex justify-end">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-prev.svg"
                         width="40"
                         height="40"
@@ -185,7 +188,7 @@
                     </div>
                     <div class="flex-1 flex justify-start">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-next.svg"
                         width="40"
                         height="40"
@@ -195,22 +198,24 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="w-[200px] w-[230px] text-center pb-10 overflow-hidden p-4"
-              >
+              <div class="w-[230px] text-center pb-10 overflow-hidden p-4">
                 <div class="mx-3 bg-white rounded-2xl shadow-lg flex flex-col">
-                  <img
-                    src="./assets/burger_sandwich.png"
-                    alt=""
-                    class="scale-150"
-                  />
-                  <h4 class="text-2xl font-bold">Burger</h4>
-                  <p>Mushroom Souce</p>
-                  <p>$5.15</p>
+                  <figure>
+                    <img
+                      src="./assets/img-food-desert.png"
+                      alt=""
+                      class="scale-150"
+                    />
+                    <figcaption class="relative z-20">
+                      <h4 class="text-2xl font-bold">Burger</h4>
+                      <p>Mushroom Souce</p>
+                      <p>$5.15</p>
+                    </figcaption>
+                  </figure>
                   <div class="flex relative top-[15px]">
                     <div class="flex-1 flex justify-end">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-prev.svg"
                         width="40"
                         height="40"
@@ -219,7 +224,7 @@
                     </div>
                     <div class="flex-1 flex justify-start">
                       <img
-                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl"
+                        class="mx-3 justify-end bg-white rounded-full p-1 relative shadow-xl cursor-pointer"
                         src="./assets/icon-arrow-next.svg"
                         width="40"
                         height="40"
@@ -232,6 +237,17 @@
             </div>
           </div>
         </div>
+        <div
+          style="
+            background: rgb(217, 217, 217);
+            background: linear-gradient(
+              180deg,
+              rgba(217, 217, 217, 1) 0%,
+              rgba(217, 217, 217, 0) 100%
+            );
+          "
+          class="bg-slate-500 absolute h-full xl:w-[370px] rounded-[30px] -right-4 -top-8 z-[10]"
+        ></div>
       </div>
     </div>
     <div

@@ -4,23 +4,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## PRIORITY TOPICS:
 
-State Management
+### State Management
 
-- NgRx
+- NgRx Framework
 
-Reactive Programming
+### Reactive Programming
 
 - RxJS (Reactive Extensions for Javascript)
 
-Angular Services
+### Testing in Angular
 
-Dependency Injection
+### Angular Services
 
-HTTP Request / Response
+### Dependency Injection
 
-Routing
+### HTTP Request / Response
 
-Component Communication
+### Routing
+
+### Component Communication
 
 
 ## Development server

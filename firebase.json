@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/angular-ts-food",
     "ignore": [
       "firebase.json",
       "**/.*",
